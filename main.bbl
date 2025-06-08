@@ -41,6 +41,61 @@
       \field{title}{Report of the Elliot Lake Commission of Inquiry, Part One: The Events Leading to the Collapse of the Algo Centre Mall}
       \field{year}{2014}
     \endentry
+    \entry{ElliotLakePopulation}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
+           family={Unknown},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{bibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authorbibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authornamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authorfullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elliot Lake Population}
+      \verb{urlraw}
+      \verb https://population.city/canada/elliot-lake/#1
+      \endverb
+      \verb{url}
+      \verb https://population.city/canada/elliot-lake/#1
+      \endverb
+    \endentry
+    \entry{NYT1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7806dca5e14bccb5576fc0d006fc6a94}{%
+           family={Farnsworth},
+           familyi={F\bibinitperiod},
+           given={Clude\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7806dca5e14bccb5576fc0d006fc6a94}
+      \strng{fullhash}{7806dca5e14bccb5576fc0d006fc6a94}
+      \strng{bibnamehash}{7806dca5e14bccb5576fc0d006fc6a94}
+      \strng{authorbibnamehash}{7806dca5e14bccb5576fc0d006fc6a94}
+      \strng{authornamehash}{7806dca5e14bccb5576fc0d006fc6a94}
+      \strng{authorfullhash}{7806dca5e14bccb5576fc0d006fc6a94}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{journaltitle}{The New York Times}
+      \field{month}{6}
+      \field{title}{Elliot Lake Journal; Snug Retiree Haven Where Uranium Mine Stood}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/1996/06/03/world/elliot-lake-journal-snug-retiree-haven-where-uranium-mine-stood.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/1996/06/03/world/elliot-lake-journal-snug-retiree-haven-where-uranium-mine-stood.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
