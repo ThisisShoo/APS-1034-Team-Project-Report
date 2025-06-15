@@ -118,9 +118,6 @@ INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
 OUTPUT main.aux
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
@@ -136,14 +133,8 @@ INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pd
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT .\main.out
-INPUT .\main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
@@ -160,6 +151,7 @@ INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tf
 INPUT C:\Users\91633\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT main.toc
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\91633\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
