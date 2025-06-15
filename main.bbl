@@ -96,6 +96,38 @@
       \verb https://www.nytimes.com/1996/06/03/world/elliot-lake-journal-snug-retiree-haven-where-uranium-mine-stood.html
       \endverb
     \endentry
+    \entry{DoodyRemarksPEO}{report}{}
+      \name{author}{1}{}{%
+        {{hash=7be8526aa66eb3a6ace42b525b95829e}{%
+           family={Doody},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Engineers Canada}%
+      }
+      \strng{namehash}{7be8526aa66eb3a6ace42b525b95829e}
+      \strng{fullhash}{7be8526aa66eb3a6ace42b525b95829e}
+      \strng{bibnamehash}{7be8526aa66eb3a6ace42b525b95829e}
+      \strng{authorbibnamehash}{7be8526aa66eb3a6ace42b525b95829e}
+      \strng{authornamehash}{7be8526aa66eb3a6ace42b525b95829e}
+      \strng{authorfullhash}{7be8526aa66eb3a6ace42b525b95829e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-06-13}
+      \field{title}{Remarks from Peter Doody to the AGM of Professional Engineers Ontario}
+      \field{type}{techreport}
+      \field{year}{2015-05-31}
+      \verb{urlraw}
+      \verb https://engineerscanada.ca/news-and-events/news/remarks-from-peter-doody-to-the-agm-of-professional-engineers-ontario
+      \endverb
+      \verb{url}
+      \verb https://engineerscanada.ca/news-and-events/news/remarks-from-peter-doody-to-the-agm-of-professional-engineers-ontario
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
