@@ -5,7 +5,9 @@
 \usepackage{xpatch}
 \usepackage[sorting=none]{biblatex}
 \usepackage{fancyhdr}
+\usepackage{float}
 \usepackage[a4paper, margin=1.25in]{geometry}
+\usepackage{makecell}
 \addbibresource{references.bib}
 \hypersetup{
     colorlinks=true,
@@ -35,9 +37,32 @@
 % https://www.youtube.com/watch?v=2tO1L3SKhfU
 
 \begin{document}
+\title{Causal Analysis based on Systems Theory (CAST) of the Algo Centre Mall Collapse}
+\author{Teresa Sabu (1011567038), \\
+Raul Martinez (1004821838), \\
+Shuhan Zheng (1007136154), \\
+Wenxuan Meng (), \\
+Zhaoheng ``Kevin'' Li (1011349612), \\
+Julian Lebenhaft (Instructor)
+}
 \maketitle
 
 \newpage
+
+% \begin{table}[H]
+%     \centering
+%     \caption{Contributions of Team Members}
+%     \begin{tabular}[H]{|l|l|}
+%         \hline
+%         Tasks/Sections & Main Contributors \\ \hline
+%         General formatting and review & Shuhan Zheng \\ \hline
+%         Executive Summary & Shuhan Zheng \\ \hline
+%         Introduction & \makecell{Shuhan Zheng (History \& CAST intro),\\ Raul Martinez (Timeline)} \\ \hline
+        % System Control Structure (report) & Raul Martinez\\ \hline
+
+%     \end{tabular}
+%     \label{Contributions}
+% \end{table}
 
 \tableofcontents
 \newpage
@@ -81,6 +106,7 @@ The above is not in any way an exhaustive list of Mr. Nazarian's questionable bu
 
 Although it is easy to blame the past owners for the 2012 collapse of Algo Centre Mall, a necessary component of this tragedy came from the regulatory bodies' failure to enforce the safety standards. The City Council of Elliot Lake had been officially made aware of the mall's ongoing water leakage issues since as early as 1991, when the public library made a complaint to the city. However, with the mall being a significant local hub of commerce and a community gathering space that had the same issue since its construction, it is inconceivable that the City Council had not been aware of the issues from the very beginning. Granted, the City of Elliot Lake may have been busy grappling with an existential crisis that occurred between the mall's construction and the turn of the century, but it had plenty of capacity to act after that. As a non-profit organization working closely with the City Council, Retirement Living was detrimental to revitalizing the city's economy as it transformed a former mining town into a successful retirement destination. However, this close relationship also meant a conflict of interest that ultimately impeded the City Council's ability to enforce safety standards. The City of Elliot Lake's Property Standards By-law includes a term that has remained valid since 1975, which mandates that the roof of a building and its drainage systems must be watertight, and that the maintenance of which is the responsibility of the owner. The Algo Centre Mall had already been leaking for decades, and no order for compliance was issued until after Retirement Living had already absolved itself of the responsibility to the mall. Even when it did issue orders against Eastwood, the City Council did not follow through with any enforcement actions, such as fines or closure of the mall, until the roof collapsed. The Elliot Lake Report pointed out that the enforcement were carried out in a complaint-driven manner, but given the time frame and what little was done about the mounting complaints, it clearly would have taken a lot more for the city to take any substantial action. 
 
+The role of the Ministry of Labour (MoL) in the Algo Centre Mall collapse is also worth noting. The MoL had a field office in the mall in the early years of its operation and visited at least 25 times between 2007 and 2012, but the leaks still somehow went unnoticed or were taken unseriously until a few years before the collapse. The Elliot Lake Report attributes this to the MoL inspector at that time being ``incurious'' and his actions ``perfunctory and inadequate'', but mentions relatively little about the MoL's involvement in the Algo Centre Mall's history otherwise, at least not beyond inspections in response to complaints. As far as documented in the Elliot Lake Report, the MoL did not issue any orders directly related to the roof deck or the structural integrity of the mall, and the orders that were issued only superficially addressed the issues at hand, such as mold infestation and water leaks. Few signs, if any, ever indicated that the MoL had any knowledge about the mall's crumbling structure, nor did they take the effort to investigate the matter further. 
 
 \subsection{CAST Methodology}
 
@@ -170,84 +196,41 @@ SC7: Safety-related information must not be kept away from the public due to com
 
 % Failure Points: Identify specific points where safety constraints were breached, such as ignored engineering reports or inadequate repairs. RAUL
 
-FAILURE POINTS
+\subsection{FAILURE POINTS}
 
-Ignored Persistent Warnings = Leaks and other issues began shortly after the mall opened. This was just one of the early indicators of the roof's poor structure. Not only did they ignore the vast number of leaks, but they also ignored a great warning in June of 2011 when a piece of concrete fell from the roof at the restaurant Hungry Jack. Even though there was an initial report filed, an inspector never arrived to do the inspection, allowing the negligent management to continue like no wrong was done.
+\textbf{Ignored Persistent Warnings} - Leaks and other issues began shortly after the mall opened. This was just one of the early indicators of the roof's flawed designs. With the knowledge of the roof's missing waterproof layer, as well as its lasting consequences to the structure, each subsequent owner and management team continued the same maintenance practices that did not address the root cause of the leaks. Even though there was an initial report filed, an inspector never arrived to do the inspection, allowing the negligent management to continue like no wrong was done.
  
-Inadequate and Superficial roof repairs = Even with decades of complaints from various stakeholders, including customers and shops themselves, the mall management decided to use temporary and weak solutions to fix these issues instead of addressing the actual cause of the issues. As the saying goes, they were curing the symptoms but not the disease itself. As can be seen in the photo below, they were using nets to stop the leaks instead of addressing the root problem itself. This was due to the higher cost of more permanent and effective solutions.
-  
-
+\textbf{Inadequate and Superficial roof repairs} - Even with decades of complaints from various stakeholders, including customers and shops themselves, the mall management decided to use temporary and weak solutions to fix these issues instead of addressing the actual cause of the issues. This was done to avoid the higher cost of a more permanent and effective solution.
  
+\textbf{Ignored / Rescinded city orders} - The city council of Eliot Lake issued multiple warnings regarding the safety of customers and tenants, as well as several maintenance issues. In 2006, the City Council filed a notice of violation under the fire code and an order to remedy property standards. Measures were put in place due to these notices, but the solutions were either temporary or inadequately enforced. The City Council's failure to enforce its orders allowed the structural issues to persist and gave a false sense of safety for both management and the public.
 
+\textbf{Inadequate Structural Interventions} - When the structural issues were being addressed, the repairs were either badly planned, insufficient, or incomplete. An example of this was how fireproofing was applied directly over the corroded beams. Furthermore, in 2008/2009, there were plans to install a proper waterproofing membrane, but Eastwood cancelled the contract in order to save. Instead, it hired a contractor who provided a cheaper solution that was ineffective in the long term. Other repairs done over the decades were also merely superficial and cosmetic.
+
+\textbf{Superficial Engineering Report by Robert Wood} - In April of 2012 (two months before the roof collapse), engineer Robert Wood signed a report stating that there were no structural issues visible at the mall. However, he never removed any finishes or investigated areas that were prone to corrosion. He was pressured by the mall's owner to downplay his concerns, which later contributed to the false sense of safety, delaying any action that could have prevented the collapse.
+
+\textbf{Unchecked and widespread corrosion} - Over 30 years, water leaks from the rooftop parking area caused severe rust on steel beams and welds. Investigations after the collapse indicated that some welds had corroded to only 12\% of their original strength and that approximately 40\% of structural connections showed deterioration. Third party inspections by RBC and MoL failed to identify and report this corrosion, leaving it to develop unchecked. 
+
+\textbf{Roof Design Flaws} - Algo Centre Mall employed a novel design with the inclusion of a rooftop parking deck. The company that designed and built the mall did not have any prior experience with this type of design, which led to the improper construction of that deck. The hollow core slabs, along with the concrete layer on top of it, were insufficient to prevent water from reaching the steel structure below. This was made worse by road salt brought in by the vehicles, as well as the de-icing salt used by building management. Decades of salt water exposure to the steel frame caused severe corrosion, which became the direct cause of the roof collapse. 
+
+\textbf{Uncontrolled vehicle loads} - Reports indicate that heavy and unregulated loads were applied to the roof without structural reinforcements in place. The weakened structure struggled to support the weight of vehicles, as well as the snow during winter. 
+
+\textbf{Fabricated maintenance records} - Mall owner, Bob Nazarian, submitted falsified financial records to the bank and lenders. Each owner also omitted engineering reports from the next one. The combined effect kept the mall operating under the false pretense that its structural problems were being retified or being addressed by relevant authorities. 
  
-Ignored / Rescinded city orders = Eliot Lake issued multiple warnings regarding the safety of customers and tenants. These warnings not only included the safety of these stakeholders but also included the maintenance of various issues. There was a notice of violation under the fire code and an order to remedy property standards. There were measures put in place due to these notices, but they were either inadequately enforced or built in order to be temporary solutions. This bad application of city order allowed the structural issues to persist and gave a false sense of safety for both management and the public.
-
- 
-
- 
-
- 
-Inadequate structural interventions = When the structural issues were being addressed, the repairs were either badly planned, insufficient, or incomplete. An example of this was how fireproofing was applied directly over the corroded beams without fixing those. In 2008/2009, there were plans to install a proper waterproofing membrane, but it was canceled due to cost concerns. It could be said that these fixes were mostly cosmetic rather than structural since they failed to address the growing corrosion problem.
-
- 
-
- 
-Superficial Engineering Report by Robert Wood = In April of 2012 (two months before the roof collapse), engineer Robert Wood signed a report stating that there were no visual structural issues visible at the mall. It was later found that he never removed any finishes or investigated areas that were prone to corrosion. He was pressured by the mall’s owner to downplay his concerns which directly contributed to the false sense of safety, delaying any action that could have prevented the collapse.
-
- 
-
- 
-Unchecked and widespread corrosion = Over 3o years, water leaks from the rooftop parking area caused steel beams and welds to rust severely. Investigations after the collapse indicated that some welds had corroded to only 12\% of their original strength and that approximately 40\% of structural connections showed deterioration. This corrosion remained unchecked, unreported, and ignored by the inspector who failed to identify the great danger this posed.
-
- 
-
- 
-Roof Design flaws = Due to the idea that the mall had to be modern and visually pleasing, the original mall design included a rooftop parking above the retail stores, which exposed the mall's internal structure to water and salt intrusion. A waterproofing membrane that was recommended by the architect was omitted entirely in the construction. Over the years, the roof was subject to unorganized vehicular loads, which combined with snow accumulation and salt exposure, increased the wear and corrosion rate.
-
- 
-
- 
-Faulty Material installation = Waterproofing materials and concrete slabs were often installed under poor conditions, such as cold or wet weather, which compromises their durability and effectiveness. From the beginning, there were construction shortcuts taken that contributed to the degradation of the structure. Another example of this is how they used hollow-core slabs in a high-exposure environment, such as the rooftop parking. Without proper and durable waterproofing, the integrity of these slabs was reduced significantly. The lack of reinforcement of these slabs made the collapse only a matter of time.
-
- 
-
- 
-
- 
-Uncontrolled vehicle loads = The rooftop parking was a source of structural overload. Vehicle traffic on the roof created weight loads that the roof was not constructed to support. Reports are indicating that heavy and unregulated traffic (snowplows and delivery trucks) used the roof without structural reinforcements in place.
-
- 
-
- 
-Fabricated Maintenance records = Mall management and ownership (especially Bob Nazarian) submitted falsified maintenance invoices to the bank and lenders. These false documents included fake documentation for repairs that were never completed. This deception misled financial institutions but also prevented authorities from identifying and responding to risks from the mall's real conditions.
-
 % Systemic Factors: Analyze how systemic issues, like organizational culture or economic pressures, contributed to the failure. RAUL
 
-SYSTEMIC FACTORS
+\subsection{SYSTEMIC FACTORS}
 
-· Cost-cutting over safety = Throughout the mall's history, the theme of prioritizing saving money/profits over ensuring safety was a recurring occurrence. The most notable example is how its owner, Bob Nazarian, cancelled a \$1 million contract to install the proper waterproofing system since it seemed too expensive. To save money, he hired a contractor who gave them a lower price and even failed to pay them in full after the repairs were completed (which may also speak to the quality of said repairs). These decisions accelerated deterioration and directly compromised the structural integrity of the parking lot.
+\textbf{Cost-cutting over safety} - Throughout the mall's history, it has had a recurring theme prioritizing cost savings over maintaining the mall's safety and structural integrity. The most notable example is how one of its owners, Bob Nazarian, canceled a \$1 million contract to install the proper waterproofing system because it seemed too expensive. Instead, he hired a contractor at the lowest possible price and terminated their service before the waterproofing system was properly installed with the asphalt layer on top. The sloppy work carried out by the contractor caused further leaks and property damage to the mall's tenants.
 
- 
+\textbf{Organizational negligence and poor maintenance culture} - The problems that plagued the mall over the years were frequently ignored, overlooked, or, if addressed, only superficially. The maintenance team that was responsible for the mall's upkeep during most of its history only carried out the repairs reactively rather than proactively. These problems were further exacerbated during the Eastwood years, when complaints from tenants were routinely dismissed. These indicate a culture that lacked accountability and responsibility, which contributed to the oversight when a significant problem incubated.
 
- · Weak regulatory oversight =The city of Elliot Lake failed to consistently enforce safety standards. Even after issuing multiple violations and hearing complaints from various sources, the city rescinded enforcement actions that they had placed previously, allowing Nazarian to neglect necessary repairs. During this time, inspectors failed to ensure code compliance. The leniency allowed unsafe conditions that remained unchecked and escalated through time.
+\textbf{Weak communication among stakeholders} - A systemic failure existed in the communications between vital stakeholders, including past and present owners, engineers, government officials, and tenants. Instead of taking responsibility, each owner only sought to sell the mall and its problems to the next one. They routinely assured the buyers that the leaks were minor, fixable issues, while engineering reports and tenant complaints indicated otherwise. The responses from the mall about tenant complaints were also sparse and far between. The dysfunctional communication between the mall's various stakeholders led to neither substantial actions nor governmental interventions.
 
- 
+\textbf{Ethical lapses among professionals} - Several professional engineers involved in the mall ignored their duty to public safety. Robert Wood admitted that he did not conduct a proper inspection and included false reassurances in his report. Similar lapses can be seen at multiple levels of organizations. Bob Nazarian routinely demonstrated questionable business practices and a lack of managerial ethics; the use of hollow-core slabs was a sign of a lapse in the engineers' judgment, as they were not suitable for the humid and cold environment of Elliot Lake. 
 
- · Organizational negligence and poor maintenance culture = There was a long history of problems that were either ignored, patched superficially, or never even attempted to be repaired. It is clear how the mall was under a management team that treated repairs as something reactive instead of proactive. An example of this is how leaks were addressed with caulking instead of fixing the root cause of the leak. The complaints from various tenants were dismissed, which created a culture of negligence when it came to repairs and maintenance.
+\textbf{Superficial inspections} - Many of the inspections, especially the potentially most influential ones by the Ministry of Labor, which were conducted to assess the condition of the structure, were done superficially. There was no visual inspection beyond the surface material, no destructive tests, and no testing for corrosion of the internal structure. This allowed the deteriorated welds and extensive rust to go unnoticed and undocumented for decades. The mall was repeatedly declared to be in a structurally good condition even with obvious external and internal issues.
 
- 
-
- · Weak communication among stakeholders = There was a systemic failure when communicating between vital stakeholders, including previous and current mall owners, engineers, city officials, and tenants. It is clear how the previous owners of the mall knew exactly the deficiencies of the structure and wanted to get rid of the liability. They assured the buyers the leaks were a small, fixable issue instead of the reality of the situation. Tenants reported major issues (like the piece of concrete that fell, and even though there was a complaint, the authorities never showed up,) and there was no follow-up from the mall. The broken communications between stakeholders led to no action being taken from authorities or other governing bodies who could have acted.
-
- 
-
- · Ethical lapses among professionals = Several professional engineers involved in the mall ignored their duty to public safety. Robert Wood admitted he did not conduct a proper inspection and not only downplayed his concerns but also included false reassurances in his report. This lapse can be seen in multiple levels of the organization, starting with Nazarian, who had no moral ground and decided that the safety of the community was secondary to his profits. The use of hollow-core slabs is proof that professionals who know the limitations of the materials used, especially in humid/cold environments, show how much the lapse of judgement occurred. Whether this was for cost-saving measures, poor maintenance culture, or an inspector, everyone who knew the limitations of the materials and that they were not optimal for the environment where being used had failed in their professional duty either on purpose or by accident.
-
- 
-
- · Surface-level inspections = Many of the inspections that were conducted of the structure and condition of the mall were done to a superficial level. The inspectors did not remove ceiling panels, and most importantly, they never tested for corrosion of the internal structure. All this allowed for deteriorated welds and extensive rust to go unnoticed and undocumented for decades. The mall was repeatedly declared structurally in good condition even with obvious external and internal issues to the structure.
-
- 
+% This is how far I've reviewed. I'll keep going after class. - Shuhan
 
  
 
