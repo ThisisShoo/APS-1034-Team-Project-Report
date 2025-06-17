@@ -115,74 +115,171 @@ Causal Analysis based on System Theory (CAST) is a methodology that focuses on u
 
 The first step towards applying the CAST methodology is to build a comprehensive understanding of the system, including its goals, losses, hazards, safety parameters, and proximate events that led to the incident. This helps to construct a Safety Control Structure (SCS) that identifies the interaction pathways between the various components of the system, both at the time of the incident and as originally intended by design. Most accidents start at the operations level, where human controllers interact with a physical process, perhaps through an automated control system. Therefore, the analysis segment of CAST would start from there, examining the flaws in human and automated controllers, in conjunction with the context of the accident. Since the SCS at the operations level is always determined by managerial and regulatory decisions, the analysis would then proceed in a top-down manner, evaluating the positive or negative contributions of those decisions, as well as environmental factors such as economic pressures, political climates, and organizational safety culture, to the accident. Finally, CAST concludes its analysis segment by identifying the dynamics of the system from a safety perspective. Specifically, it identifies the manners in which the system's components exacerbated or diminished the risk factors, through establishing a system dynamics model and exposing it to simulated scenarios. From there, CAST can help format the findings into an accident report, which can then be used to inform future safety measures and regulations.
 
-\section{Safety Control Structure}
-% Control Hierarchy: Map out the safety control structure, detailing how safety constraints were supposed to be enforced from design through operation.
+\section{CAST Step 1: Assemble Basic Information}
 
-% Communication Channels: Examine the communication pathways among stakeholders and how information about structural issues was shared or neglected.
+\subsection*{Safety Control Structure}
 
-% Regulatory Oversight: Assess the role of municipal and provincial regulations in ensuring building safety and how these may have failed.
+Safety control structure forms the first step in understanding why an accident occurs. A system is generally represented by two hierarchical safety control structures - system development, and system operations. Each level in these hierarchical structures has a downward path (control path) and an upward path (feedback path). Therefore, this representation is comprised of a network of feedback loops.
 
-\underline{System Goals}
+\subsection{System Goals}
 
-G1. Provide a safe, functional, and accessible commercial environment for the residents and visitors of Elliot Lake
+The system goals define the purpose of a system. Understanding the system goals is therefore essential to assess its functionality to the end of achieving these goals. In the context of the Algo mall, the following system goals are identified:
 
-G2. Ensure the structural integrity of the building throughout its lifecycle
+G1. Provide facilities for retail and commercial services to the community.
 
-\underline{Losses}
+G2. Support the growth of the local economy.
 
-L1. Human losses: loss of life, physical injuries and psychological harm
+\subsection{Losses}
 
-L2. Material and structural losses: destruction of property and economic losses
+The main purpose of a CAST analysis is to minimize the losses resulting from an accident. Hence, the next step is to identify repercussions of accidents that may be categorized as a loss. In the context of Algo mall, the following are the identified losses:
 
-L3. Institutional and professional failures: loss of public trust, damage to the image of the engineering profession, and less trust in governmental accountability
+L1. Loss of life or injury to people.
 
-L4. Disruption to society: loss of a commercial space, and breakdown of emergency responses
+L2. Damage to mall facilities.
 
-\underline{Hazards}
+L3. Loss or damage to cars parked on the mall roof.
 
-H1. Corrosion of the structure due to leaking from the rooftop parking deck [L1, L2, L3, L4]
+L4. Loss of retail and commercial services.
 
-H2. Ineffective inspection and maintenance routine [L1, L2, L3, L4]
+L5. Loss of revenue.
 
-H3. Inadequate engineering assessments [L1, L2, L3, L4]
+L6. Loss of customer satisfaction.
+% NOTE: There should be a loss that is in relation to the mall's tenants?
 
-H4. Regulatory and oversight gaps [L1, L2, L3, L4]
+\subsection{Hazards}
 
-H5. Unclear responsibility allocation and poor communication [L1, L2, L3, L4]
+Once the safety control structure has been established, each of its components is analyzed to understand how it may have contributed to the accident. This is done in a way that does not assign blame to any individual or component, but rather to identify the contributing factors that led to the accident. Contributing factors can be found anywhere in the loop - controller, measurement, actuation, and/or process failures. For the system pretaining to Algo Centre Mall, the following hazards are defined corresponding to previously identified losses:
 
-H6. Economic and political pressures [L4]
+H1. The mall structure is damaged [L1, L2, L3, L4, L5, L6].
 
-H7, Unpreparedness when an emergency emerges [L1, L3, L4]
+{\parindent -2em
+\leftskip 6em 
+H1.1 The structure of the mall is compromised by poor civil design.
 
-\underline{System Safety Requirements and Constraints}
+} 
 
-SR1: The building must be designed and maintained to ensure long-term structural integrity under expected environmental and usage conditions. [H1]
+{\parindent -2em
+\leftskip 6em 
+H1.2 An incorrect selection of materials results in a mall structure deterioration.
 
-SC1: Structural components must not be allowed to degrade to the point of losing load-bearing capacity. [H1]
+}
 
-SR2: Regular, thorough inspections of critical infrastructure (e.g., roof, support beams) must be conducted by qualified professionals. [H2]
+{\parindent -2em
+\leftskip 6em 
+H1.3 Poor maintenance degrades the mall infrastructure.
 
-SC2: Identified structural deficiencies must be documented transparently and acted upon within a reasonable time frame. [H2]
+}
 
-SR3: Engineering assessments must be objective, evidence-based, and prioritize public safety over client interests. [H3]
+{\parindent -2em
+\leftskip 6em 
+H1.4 Excessive load results in a mall structure failure.
 
-SC3: Engineers must communicate risk levels clearly and explicitly, including in cases where conditions are unsafe or immediate action is needed. [H3]
+}
 
-SR4: Municipal and provincial authorities must have mechanisms to enforce that the building safety standards are followed. [H4]
+These hazards are to be then analyzed in detail. This analysis consists of the following: 
 
-SC4: Regulatory bodies must step in when reports indicate serious structural risks, including through orders, fines, or building closure. [H4]
+\begin{itemize}
+    \item System requirements (defining the responsibilities of controllers)
+    \item Context in which decisions are made (understanding why certain decisions were made and the reasons behind the actions people take)
+    \item Mental model (understanding the model of controllers, example : City of Elliot Lake's belief that it had little responsibility to act unless an engineer explicitly declared a structure dangerous)
+    \item Inadequate control actions (combining the previous three components of the analysis to understand the actions that lead to unsafe conditions)
+\end{itemize}
 
-SR5: Property owners must allocate resources for ongoing maintenance and be held accountable for not doing repairs that pose safety risks. [H5]
+\subsection{System Requirements and Safety Constraints}
 
-SC5: Cost-saving measures must not go above the minimum safety standards required for public occupancy. [H5]
+System requirements can be obtained from system goals and hazards. However, all the requirements may not be completely achieved, and trade offs may be made in case of conflicting goals or constraints. Thus, the design must satisfy as many requirements as possible. In the context of the Algo Centre Mall, the following system requirements are identified to ensure safe operations:
 
-SR6: Emergency response plans must account for building collapse scenarios and provide for safe, timely rescue efforts. [H6]
+SC1. The mall structure must not be damaged [H1].
 
-SC6: Emergency response should not be suspended without an effective alternative strategy when lives may be at risk. [H6]
+{\parindent -2em
+\leftskip 6em 
+SC1.1 Poor civil design must not compromise the mall structure [H1.1].
 
-SR7: The public and tenants must be informed about any significant structural safety risks affecting the buildings they use. [H7]
+}
 
-SC7: Safety-related information must not be kept away from the public due to commercial, political, or reputational concerns. [H7]
+{\parindent -2em
+\leftskip 6em 
+SC1.2 Materials for the mall structure must be selected correctly [H1.2].
+
+}
+
+{\parindent -2em
+\leftskip 6em
+SC1.3 The mall infrastructure must be appropriately maintained [H1.3].
+
+}
+
+{\parindent -2em
+SC1.4 The mall structure must not be subjected to excessive loads [H1.4]
+
+}
+
+
+
+
+% \section{Safety Control Structure}
+
+% \underline{System Goals}
+
+% G1. Provide a safe, functional, and accessible commercial environment for the residents and visitors of Elliot Lake
+
+% G2. Ensure the structural integrity of the building throughout its lifecycle
+
+% \underline{Losses}
+
+% L1. Human losses: loss of life, physical injuries and psychological harm
+
+% L2. Material and structural losses: destruction of property and economic losses
+
+% L3. Institutional and professional failures: loss of public trust, damage to the image of the engineering profession, and less trust in governmental accountability
+
+% L4. Disruption to society: loss of a commercial space, and breakdown of emergency responses
+
+% \underline{Hazards}
+
+% H1. Corrosion of the structure due to leaking from the rooftop parking deck [L1, L2, L3, L4]
+
+% H2. Ineffective inspection and maintenance routine [L1, L2, L3, L4]
+
+% H3. Inadequate engineering assessments [L1, L2, L3, L4]
+
+% H4. Regulatory and oversight gaps [L1, L2, L3, L4]
+
+% H5. Unclear responsibility allocation and poor communication [L1, L2, L3, L4]
+
+% H6. Economic and political pressures [L4]
+
+% H7, Unpreparedness when an emergency emerges [L1, L3, L4]
+
+% \underline{System Safety Requirements and Constraints}
+
+% SR1: The building must be designed and maintained to ensure long-term structural integrity under expected environmental and usage conditions. [H1]
+
+% SC1: Structural components must not be allowed to degrade to the point of losing load-bearing capacity. [H1]
+
+% SR2: Regular, thorough inspections of critical infrastructure (e.g., roof, support beams) must be conducted by qualified professionals. [H2]
+
+% SC2: Identified structural deficiencies must be documented transparently and acted upon within a reasonable time frame. [H2]
+
+% SR3: Engineering assessments must be objective, evidence-based, and prioritize public safety over client interests. [H3]
+
+% SC3: Engineers must communicate risk levels clearly and explicitly, including in cases where conditions are unsafe or immediate action is needed. [H3]
+
+% SR4: Municipal and provincial authorities must have mechanisms to enforce that the building safety standards are followed. [H4]
+
+% SC4: Regulatory bodies must step in when reports indicate serious structural risks, including through orders, fines, or building closure. [H4]
+
+% SR5: Property owners must allocate resources for ongoing maintenance and be held accountable for not doing repairs that pose safety risks. [H5]
+
+% SC5: Cost-saving measures must not go above the minimum safety standards required for public occupancy. [H5]
+
+% SR6: Emergency response plans must account for building collapse scenarios and provide for safe, timely rescue efforts. [H6]
+
+% SC6: Emergency response should not be suspended without an effective alternative strategy when lives may be at risk. [H6]
+
+% SR7: The public and tenants must be informed about any significant structural safety risks affecting the buildings they use. [H7]
+
+% SC7: Safety-related information must not be kept away from the public due to commercial, political, or reputational concerns. [H7]
 
 \section{Analysis of the Safety Control Structure Components}
 % Author: Wenxuan Meng

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.10.4)  17 JUN 2025 01:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.10.4)  17 JUN 2025 01:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -540,23 +540,23 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8B4EE8DD3408117E8D45EAAF09C94624;8147.
+(rerunfilecheck)             Checksum: AEA77A5F4C52D3117A8D42FA8CA34986;8813.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16614 strings out of 475248
- 292839 string characters out of 5757813
- 1927785 words of memory out of 5000000
- 37852 multiletter control sequences out of 15000+600000
+ 16626 strings out of 475248
+ 293042 string characters out of 5757813
+ 1928785 words of memory out of 5000000
+ 37859 multiletter control sequences out of 15000+600000
  564222 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,2213b,1307s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\91633\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/91633/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/91633/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/91633/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/91633/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/91633/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/91633/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (53 pages, 269797 bytes).
+Output written on main.pdf (53 pages, 273310 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 593 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
