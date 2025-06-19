@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage[a4paper, margin=1.25in]{geometry}
 \usepackage{makecell}
+\usepackage{booktabs,longtable,multirow}
 \addbibresource{references.bib}
 \hypersetup{
     colorlinks=true,
@@ -176,25 +177,25 @@ H1. The mall structure is damaged [L1, L2, L3, L4, L5, L6].
 
 {\parindent -2em
 \leftskip 6em 
-H1.1 The structure of the mall is compromised by poor civil design.
+H2. The structure of the mall is compromised by poor civil design.
 
 } 
 
 {\parindent -2em
 \leftskip 6em 
-H1.2 An incorrect selection of materials results in a mall structure deterioration.
+H3. An incorrect selection of materials results in a mall structure deterioration.
 
 }
 
 {\parindent -2em
 \leftskip 6em 
-H1.3 Poor maintenance degrades the mall infrastructure.
+H4. Poor maintenance degrades the mall infrastructure.
 
 }
 
 {\parindent -2em
 \leftskip 6em 
-H1.4 Excessive load results in a mall structure failure.
+H5. Excessive load results in a mall structure failure.
 
 }
 
@@ -208,25 +209,25 @@ SC1. The mall structure must not be damaged [H1].
 
 {\parindent -2em
 \leftskip 6em 
-SC1.1 Poor civil design must not compromise the mall structure [H1.1].
+SC2. Poor civil design must not compromise the mall structure [H2].
 
 }
 
 {\parindent -2em
 \leftskip 6em 
-SC1.2 Materials for the mall structure must be selected correctly [H1.2].
+SC3. Materials for the mall structure must be selected correctly [H3].
 
 }
 
 {\parindent -2em
 \leftskip 6em
-SC1.3 The mall infrastructure must be appropriately maintained [H1.3].
+SC4. The mall infrastructure must be appropriately maintained [H4].
 
 }
 
 {\parindent -2em
 \leftskip 6em
-SC1.4 The mall structure must not be subjected to excessive loads [H1.4]
+SC5. The mall structure must not be subjected to excessive loads [H5]
 
 }
 
@@ -323,6 +324,57 @@ The safety control structure at the time when the system was established is ofte
 \end{figure}
 
 % \restoregeometry
+
+\subsection{Gap Analysis}
+
+\begin{longtable}{|p{1.3cm}|p{4.2cm}|p{9.5cm}|}
+\caption{Safety Requirements and Constraints}\\ \hline
+\textbf{Req.\ ID} & \textbf{Controller} & \textbf{Responsibility}\\ \hline
+\endfirsthead
+
+\hline
+\textbf{Req.\ ID} & \textbf{Controller} & \textbf{Responsibility}\\ \hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
+% ========== table body (generated from the Word file) ==========
+\multirow{3}{*}{1} & Mall Owners & Ensure the building is operated in a way that prevents structural damage.\\ \cline{2-3}
+                   & Operations \& Maintenance staff & Avoid practices that could damage the structure and its integrity.\\ \cline{2-3}
+                   & Tenants & Use leased spaces in compliance with regulations and facility rules.\\ \hline
+
+\multirow{4}{*}{2} & Architects & Create a structural design that complies with all safety standards and does not introduce vulnerabilities.\\ \cline{2-3}
+                     & Engineer & Review architectural design and provide safe structural calculations and specifications.\\ \cline{2-3}
+                     & Algoma Central Railway & Approve designs that meet the structural-integrity standard.\\ \cline{2-3}
+                     & Ontario Building Code Commission (OBCC) & Provide building-code requirements that the final design must comply with.\\ \hline
+
+\multirow{4}{*}{3} & Engineer & Specify appropriate materials that guarantee safety, durability, and load requirements.\\ \cline{2-3}
+                     & Architects & Ensure material choices align with the design.\\ \cline{2-3}
+                     & Algoma Central Railway & Approve or reject material proposals; avoid cost-driven substitutions that compromise safety.\\ \cline{2-3}
+                     & Ontario Building Code Commission (OBCC) & Define code standards for acceptable construction materials.\\ \hline
+
+\multirow{3}{*}{4} & Mall Owners & Establish and fund regular maintenance schedules, contract qualified personnel, and ensure maintenance is done properly.\\ \cline{2-3}
+                     & Operations \& Maintenance staff & Perform routine maintenance.\\ \cline{2-3}
+                     & Building Department & Monitor compliance with maintenance obligations.\\ \hline
+
+\multirow{4}{*}{5} & Mall Owners & Create procedures to prevent overloading through access restrictions.\\ \cline{2-3}
+                     & Operations \& Maintenance staff & Enforce weight limits, manage snow accumulation, and prevent heavy equipment in non-reinforced zones.\\ \cline{2-3}
+                     & Engineer & Provide accurate load specifications for design.\\ \cline{2-3}
+                     & Building Department & Respond to violations or complaints involving overloading risks.\\ \hline
+% ===============================================================
+\end{longtable}
+
+The gap analysis conducted for the Algo Centre Mall shows a complete and layered picture of accountability within its safety control structure. We concluded that for every safety constraint identified, there was at least one controller who was responsible for the action, meaning that, in theory, there were no gaps in terms of unassigned responsibilities. On paper, all safety requirements had been assigned to a controller with contingency included, such as all the government entities that oversee each other. 
+
+However, the presence of a controller did not guarantee effective execution of the responsibility. The key point found in the analysis lies not in the absence of a controller but in their reliance. There are a few key controllers who, during their tenure as stakeholders of the Algo Centre mall, were a liability to the safety control structure. Throughout the analysis, a pattern emerged where a large number of safety constraints depended on the actions, decisions, and ethical conduct of both the engineer and the mall owner. This unveiled a failure in the safety control structure itself: it was too dependent on the integrity of these two/three individual actors (John Kadlek, Robert Wood, and Bob Nazarian). A clear example of this gap is the engineering report that Wood submitted two months before the actual roof collapse, where he was influenced by Nazarian to downplay his findings.  When both of these controllers failed to fulfill their responsibility, no other part of the system was equipped to detect this failure in time. In this case, the failure of an engineer to accurately report the true condition of the structure and the failure of the owner to act on known risks had cascading events even if there were numerous overseeing institutions. 
+
+The second major key point of the analysis is: while there were many institutions that oversee one another, the way they did their overseeing was fragmented and very poorly escalated from one to another. Several regulatory institutions provide professional oversight, including: the Building Department, the City of Elliot Lake (Municipality), the Ontario Building Code Commission (OBCC), the Professional Engineers Ontario (PEO), and even the Ministry of Municipal Affairs and Housing. The system was full of overlapping responsibilities, but these overlaps did not translate into an automatic contingency. Overseeing bodies were able to check one another, but in practice, they relied too heavily on one another or assumed another entity was going to intervene. 
+
+This could be seen when the first piece of concrete fell from the ceiling. The Municipality was informed of the situation, and they said they would send an inspector to review the situation, but the inspector never showed up. There was no follow-up, no documentation, and no verification. According to the safety control structure, this issue was supposed to be escalated to the provincial oversight bodies, such as the Ontario Building Code Commission or the Ministry of Municipal Affairs and Housing, but this did not occur. The absence of higher-level intervention allowed the problem to fade, and it was only when the issue became mortal that overseeing bodies decided to act. 
 
 \section{CAST Step 3: Bottom-up Analysis of the Safety Control Structure Components}
 % Author: Wenxuan Meng
