@@ -6,6 +6,7 @@
 \usepackage[sorting=none]{biblatex}
 \usepackage{fancyhdr}
 \usepackage{float}
+\usepackage{graphicx}
 \usepackage[a4paper, margin=1.25in]{geometry}
 \usepackage{makecell}
 \addbibresource{references.bib}
@@ -49,7 +50,7 @@
 \author{Teresa Sabu (1011567038), \\
 Raul Martinez (1004821838), \\
 Shuhan Zheng (1007136154), \\
-Wenxuan Meng (), \\
+Wenxuan Meng (1005434246), \\
 Zhaoheng Li (1011349612), \\
 Julian Lebenhaft (Instructor)
 }
@@ -57,21 +58,29 @@ Julian Lebenhaft (Instructor)
 
 \newpage
 
-% \begin{table}[H]
-%     \centering
-%     \caption{Contributions of Team Members}
-%     \begin{tabular}[H]{|l|l|}
-%         \hline
-%         Tasks/Sections & Main Contributors \\ \hline
-%         General formatting and review & Shuhan Zheng \\ \hline
-%         Executive Summary & Shuhan Zheng \\ \hline
-%         Introduction & \makecell{Shuhan Zheng (History \& CAST intro),\\ Raul Martinez (Timeline)} \\ \hline
-        % System Control Structure (report) & Raul Martinez\\ \hline
+\begin{table}[H]
+    \centering
+    \caption{Contributions of Team Members}
+    \vspace{1em}
+    \begin{tabular}[H]{|l|l|}
+        \hline
+        Tasks/Sections & Main Contributors \\ \hline
+        \makecell{Formatting, review, \\ writing style unification} & Shuhan \\ \hline
+        Executive Summary & Shuhan \\ \hline
+        Introduction & \makecell{Shuhan (History \& CAST intro),\\ Raul (Timeline)} \\ \hline
+        Step 1 - Assemble Basic Information & Teresa \\ \hline
+        \makecell{Step 2 - Hierarchical Safety Control \\ Structure (diagram)} & Teresa / Raul \\ \hline
+        \makecell{Step 2 - Hierarchical Safety Control \\ Structure} & Teresa \\ \hline
+        \makecell{Step 2 - Hierarchical Safety Control \\ Structure (at time of accident)} & Teresa \\ \hline
+        Step 3 - Bottom-up Analysis & Wenxuan \\ \hline
+        \makecell{Step 4 - Top-down Analysis, GAP \\ Analysis} & Raul \\ \hline
+        Step 5 - System Dynamics Model & Teresa \\ \hline
+        Step 6 - Discussion/Recommendations & Zhaoheng \\ \hline
+        Presentation & \makecell{Zhaoheng (lead \& review) \\ everyone else (their own sections)} \\ \hline    \end{tabular}
+    \label{Contributions}
+\end{table}
 
-%     \end{tabular}
-%     \label{Contributions}
-% \end{table}
-
+\newpage
 \tableofcontents
 \newpage
 
@@ -80,27 +89,33 @@ Julian Lebenhaft (Instructor)
 
 % Overview: Provide a brief description of the Algo Centre Mall collapse, including the date, location, and immediate consequences.
 
+\addcontentsline{toc}{section}{Introduction}
 \section*{Introduction} 
 % Author: Shuhan Zheng 
 % Reviewer: Teresa Sabu
 
 The Algo Centre Mall, located in Elliot Lake, Ontario, was constructed between 1979 and 1980 by Algocen Realty Holdings Ltd. Housing a public library, a government service center, a hotel and retirement residence, and various retail stores, the mall served not only as a commercial hub but also as a community gathering space. The three-story structure was composed of concrete and steel-reinforced concrete slabs supported by a steel frame, sitting on a sloped terrain facing northeast. A parking deck was built on the roof, which was accessible via ramps along the hillside. The parking deck was supported by a steel frame held together by bolted and welded connections, with a layer of hollow core concrete slabs on top. In 2012, a section of the roof deck collapsed after a long history of water leaks, structural deterioration, and, most importantly, neglect, resulting in the deaths of two people and over twenty injuries. This report aims to analyze the Algo Centre Mall collapse using the CAST (Causal Analysis based on System Theory) methodology, which focuses on understanding the systemic factors that contributed to the incident. The following section first provides a relatively brief history of the Algo Centre Mall and its deteriorating conditions leading up to the collapse, then gives an overview of the CAST methodology, and finally outlines the structure of this report.
 
-\subsection{History of the Algo Centre Mall}
+\addcontentsline{toc}{subsection}{History of the Algo Centre Mall}
+\subsection*{History of the Algo Centre Mall}
 
-\subsubsection{Algocen built a defective mall amid a mining rush, sold its problems away at the sight of an economic downturn}
+\addcontentsline{toc}{subsubsection}{Algocen built a defective mall amid a mining rush, sold its problems away at the sight of an economic downturn}
+
+\subsubsection*{Algocen built a defective mall amid a mining rush, sold its problems away at the sight of an economic downturn}
 
 Throughout the years that immediately followed its construction, the mall was plagued by significant structural issues, particularly with water leaks from the rooftop parking deck, owing to failed waterproofing measures. Such water leaks, along with cracks that developed in the concrete slabs, were reported as early as 1981, and the building's condition continued to deteriorate over the years. Ten years later, a report prepared by Trow Consulting Engineers Ltd. found that although the rooftop parking deck was generally in good condition, various components of the building had visible signs of deterioration, including the aftermath of failed repairs, sections of broken concrete, and surface rust on exposed steel. In the Report of the Elliot Lake Commission of Inquiry (henceforth referred to as the Elliot Lake Report) \cite{AlgoLakeReport1}, it was noted that the proposed waterproofing for the rooftop parking deck only met the requirements of the Ontario Building Code at that time on a technicality, for the 1975 code never specified what the waterproof membrane should be made of. Although a waterproof sealant was relied upon to act as a waterproofing membrane, it clearly failed to do so, as water leaks continued to be reported throughout the years. 
 
 The aforementioned 1991 Trow report also indicated an abnormal amount of chloride content in the slabs, presumably from the de-icing salts used on the parking deck or brought in by vehicles, which proved to have exacerbated the corrosion of the steel components. Trow recommended the installation of a new waterproof membrane and a layer of asphalt to replace the existing concrete topping, but this recommendation was rejected by Algocen due to the high cost of repairs and the disruption of income from the mall's hotel. Testimonies from the Elliot Lake Report indicated that Algocen Realty Holdings was financially capable of performing the renovations, but they never changed the way they dealt with the leakage and eventually sold the mall to Elliot Lake Retirement Living as-is. During this transaction, Algocen did not provide Retirement Living with any of the engineering reports describing the structural issues and leaks. Algocen constructed the mall as they foresaw Elliot Lake's expansion in the 1980s, but quickly sought to offload its responsibilities to the mall as soon as the mining boom died. 
 
-\subsubsection{Retirement Living helped change the town, but not the mall maintenance practices}
+\addcontentsline{toc}{subsubsection}{Retirement Living helped change the town, but not the mall maintenance practices}
+\subsubsection*{Retirement Living helped change the town, but not the mall maintenance practices}
 
 The Elliot Lake Retirement Living (ELRL, or ``Retirement Living'') is a non-profit organization established in 1991 to promote Elliot Lake as a retirement community. Formerly a uranium mining town, Elliot Lake's population reached its peak in the 1980s due to the mining boom, but the closure of the mines in the early 1990s dealt a huge blow to the local economy, and the city's population has been in steady decline ever since \cite{ElliotLakePopulation}. With Retirement Living taking the center stage in the city's transformation into a retirement community, the organization bought many properties in Elliot Lake, including the Algo Centre Mall in 1999 from Algocen Realty Holdings, to convert them into retirement getaways \cite{NYT1996}. Retirement Living incorporated NorDev, a for-profit subsidiary, to manage the properties, including the mall and the hotel. Despite the close ties between Retirement Living and the City Council, the organization was not obligated to share with the city any information that may harm the organization, including the reports on the state of the Algo Centre Mall. 
 
 The Elliot Lake Report also indicated that Retirement Living had no plans to fully address the roof deck issue. The mall's property manager, Mr. Richard Quinn, testified in front of the Commission counsel to further confirm that the organization simply continued the same practices as before it acquired the property, except the maintenance team simply became more adept at patching the leaks, but never at preventing those leaks from happening in the first place. Further, he testified that he interpreted the 1999 Halsall report, which was acquired by Retirement Living as it purchased the mall, as an endorsement of the ongoing maintenance practices. The Halsall report suggested two options for the roof deck: either find and seal all the cracks, or install a waterproof membrane. However, Halsall presented the second option with the requirement that all the cracks must be thoroughly found and sealed, though this point was not sufficiently emphasized. Having mistaken Halsall's suggestion as an endorsement for continuous maintenance, the mall continued to utilize its own maintenance team instead of hiring qualified contractors, and its deterioration proceeded along its course through Retirement Living's ownership of the Algo Centre Mall. During this time, Retirement Living was in a good enough financial standing to perform a permanent fix to the roof deck, which was quoted by Halsall to cost \$776,000, but Retirement Living and NorDev instead spent \$1.3 million to attract Zellers, a major Canadian retailer, to the mall, as well as at least \$1.4 million in the golf course. Given the comparatively little amount that was really spent on the parking deck, as indicated in the Elliot Lake Report, it becomes clear that the 2012 collapse could have been avoided if Retirement Living and NorDev prioritized the safety of the building over the mall's business opportunities.
 
-\subsubsection{Duplicitous businessman purchased the mall without a thorough inspection, unwilling to fix but unable to sell}
+\addcontentsline{toc}{subsubsection}{Duplicitous businessman purchased the mall without a thorough inspection, unwilling to fix but unable to sell}
+\subsubsection*{Duplicitous businessman purchased the mall without a thorough inspection, unwilling to fix but unable to sell}
 
 Eastwood Mall Inc. (henceforth referred to as ``Eastwood''), wholly owned by Mr. Bob Nazarian, would later purchase the mall in 2005 at a discount. It was later revealed in the Elliot Lake Report that Retirement Living was attempting to sell off the mall to Eastwood without disclosing the full extent of the mall's crumbling conditions, which was remarkably reminiscent of the deal between it and Algocen Realty Holdings. In his interview with the Commission, Mr. Nazarian commented as such about his other property purchases in August 2009: ``The Algo Mall was a black hole that no matter how much money you put in, [...] that mall was doomed.''\cite{AlgoLakeReport1}. Indeed, neither maintaining nor renovating the mall was going to be cheap long-term, and they would not have directly contributed to any financial returns, but the mall was still quite a profitable business, as indicated by the financial statements of Retirement Living, also shown in the Elliot Lake Report. Therefore, this quote more goes to show how little Eastwood was interested in investing in the mall at that time. Instead of hiring outside engineering firms to conduct a thorough inspection of the mall, Eastwood relied on the Royal Bank of Canada's (RBC) engineers to assess it, as part of the loan application process before Nazarian could purchase the mall. The RBC engineers only conducted a visual inspection of the mall's structure and the equipment in the mechanical room. No structural components were inspected by a structural engineer, and no invasive tests were performed. As pointed out in the Elliot Lake Report, not conferring with outside consultation is not at all uncommon in Mr. Nazarian's business practices. This ignorance was further exacerbated by Retirement Living's refusal to disclose the structural issues from Eastwood, RBC, and the firm retained by RBC to survey the mall's condition, Construction Control. 
 
@@ -108,13 +123,15 @@ The fact that Eastwood's purchase turned out to be as problem-laden as the Algo 
 
 The above is not in any way an exhaustive list of Mr. Nazarian's questionable business practices in his evasion of accountability and his unethical pursuit of profit, but it is more than sufficient to demonstrate how little he invested in the already dire conditions of the Algo Centre Mall, both in terms of money and of corporate responsibility. While Mr. Nazarian should not take all the blame for the Algo Centre Mall collapse, the managerial and business culture that he fostered at Eastwood Mall Inc. was a significant factor in the mall's demise. Building on Commissioner Bélanger's conclusion to this segment of the Elliot Lake Report, Eastwood's failure to either sell off the mall or to prevent its collapse was a direct result of its own actions - its deceitful business maneuvers wore thin the trust of the tenants and lenders, its failure to deal honestly with its contractors ran the roof renovation project aground, and most importantly, it putting short-term profits above all else left the Algo Centre Mall to crumble.
 
-\subsubsection{Regulatory agencies are also to blame}
+\addcontentsline{toc}{subsubsection}{Regulatory agencies are also to blame}
+\subsubsection*{Regulatory agencies are also to blame}
 
 Although it is easy to blame the past owners for the 2012 collapse of Algo Centre Mall, a necessary component of this tragedy came from the regulatory bodies' failure to enforce the safety standards. The City Council of Elliot Lake had been officially made aware of the mall's ongoing water leakage issues since as early as 1991, when the public library made a complaint to the city. However, with the mall being a significant local hub of commerce and a community gathering space that had the same issue since its construction, it is inconceivable that the City Council had not been aware of the issues from the very beginning. Granted, the City of Elliot Lake may have been busy grappling with an existential crisis that occurred between the mall's construction and the turn of the century, but it had plenty of capacity to act after that. As a non-profit organization working closely with the City Council, Retirement Living was detrimental to revitalizing the city's economy as it transformed a former mining town into a successful retirement destination. However, this close relationship also meant a conflict of interest that ultimately impeded the City Council's ability to enforce safety standards. The City of Elliot Lake's Property Standards By-law includes a term that has remained valid since 1975, which mandates that the roof of a building and its drainage systems must be watertight, and that the maintenance of which is the responsibility of the owner. The Algo Centre Mall had already been leaking for decades, and no order for compliance was issued until after Retirement Living had already absolved itself of the responsibility to the mall. Even when it did issue orders against Eastwood, the City Council did not follow through with any enforcement actions, such as fines or closure of the mall, until the roof collapsed. The Elliot Lake Report pointed out that the enforcement was carried out in a complaint-driven manner, but given the time frame and what little was done about the mounting complaints, it clearly would have taken a lot more for the city to take any substantial action. 
 
 The role of the Ministry of Labor (MoL) in the Algo Centre Mall collapse is also worth noting. The MoL had a field office in the mall in the early years of its operation and visited at least 25 times between 2007 and 2012, but the leaks still somehow went unnoticed or were taken unseriously until a few years before the collapse. The Elliot Lake Report attributes this to the MoL inspector at that time being ``incurious'' and his actions ``perfunctory and inadequate'', but mentions relatively little about the MoL's involvement in the Algo Centre Mall's history otherwise, at least not beyond inspections in response to complaints. As far as documented in the Elliot Lake Report, the MoL did not issue any orders directly related to the roof deck or the structural integrity of the mall, and the orders that were issued only superficially addressed the issues at hand, such as mold infestation and water leaks. Few signs, if any, ever indicated that the MoL had any knowledge about the mall's crumbling structure, nor did they take the effort to investigate the matter further. 
 
-\subsection{CAST Methodology}
+\addcontentsline{toc}{subsubsection}{CAST Methodology}
+\subsection*{CAST Methodology}
 
 Causal Analysis based on System Theory (CAST) is a methodology that focuses on understanding the systemic factors that contribute to incidents, rather than distributing blame to individual actors or components. Through analyzing the interactions between various components of a system, including the human, technical, and organizational elements, the CAST methodology is able to detach itself from the chronology of events and treat safety as an emergent property of the system. CAST is especially useful for complex incidents like the Algo Centre Mall collapse, where a faulty design was magnified by the cumulative effect of multiple factors and stakeholders over a period of three decades. 
 
@@ -285,10 +302,34 @@ SC1.4 The mall structure must not be subjected to excessive loads [H1.4]
 
 % SC7: Safety-related information must not be kept away from the public due to commercial, political, or reputational concerns. [H7]
 
-\section{CAST Step 2: Hierarchical Safety Control Structure (Diagram)}
+\section{CAST Step 2: Hierarchical Safety Control Structure}
 
-Once the system goals, losses, hazards and requirements have been established, the next step is to define the system in its entirety by identifying the controllers and their interactions with each other. Therefore, the hierarchical safety control structure of the current system is identified in 
+Once the system goals, losses, hazards and requirements have been established, the next step is to define the system in its entirety by identifying the controllers and their interactions with each other. Therefore, the hierarchical safety control structure of the current system is identified in Figure \ref{fig:SCS}.
 
+The safety control structure captures the complexity of the system and how controllers interact with each other. Five group form the core system, being the federal and provincial government bodies, municipal authorities, design and construciton, private owners, and operators and occupants. The government bodies include the Federal Government of Canada, the Ministry of Labour, the Ontario Provincial Government, the Ontario Building Code Commission, and the Ministry of Municipal Affairs and Housing. The municipal authorities include the City Council, the Building Department, and the municipality government (City of Elliot Lake). The design and construction group includes professional engineers, contractors, and architects. The private entities include mall owners and Algoma Central Railway. Finally, the operations and occupants group includes operations and maintenance staff, tenants, and patrons. The peripheral system includes Professional and Regulatory associations like the Professional Engineers Ontario, financial institutions like the Royal Bank of Canada, and so on.
+
+The interactions between the groups in the safety control structures show interactions in the form of control path and feedback path. The control paths imply that one group, from which it flows, exerts safety controls over the other group, to which it flows. For example, mall owners exert control over operations and maintenance staff by approving decisions such as maintenance decisions (for instance, patching up leaks). The control decisions in turn are made based on the feedback sent by said group. However, it is also based on paths that exercise controls over the controller. For example, mall owners base their decisions based on the feedback from maintenance staff, as well as the state of the mall infrastructures, resources at their disposal, directives of the city council, and so on.
+
+After establishing the safety control structure, the responsibilities of each of the controllers need to be mapped to perform analyses that lead to understanding how the controls failed, were inadequate or overlapped in terms of responsibilities.
+
+The safety control structure at the time when the system was established is often inadequate. To supplement the understanding of the accident, there needs to be a safety control structure, as present at the time of the accident. Such an adjusted version of the safety control structure would represent how the system differed from the original design at the time of the accident, in terms of the entities involved, presence of new information channels, or the breakdown of old information channels. Such a safety controls structure is made in the context of the Algo Centre Mall in Figure \ref{fig:SCS_broken}.
+
+% \newgeometry{top=0.1cm}
+\begin{figure}[p]
+    \centering
+    \includegraphics[height=0.8\paperheight]{SafetyControlStructure.png}
+    \caption{Hierarchical Safety Control Structure of Algo Centre Mall}
+    \label{fig:SCS}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[height=0.78\paperheight]{SafetyControlStructure-Failure.png}
+    \caption{Hierarchical Safety Control Structure of Algo Centre Mall at the time of the collapse. The control mechanisms that contributed to the collapse are highlighted in red.}
+    \label{fig:SCS_broken}
+\end{figure}
+
+% \restoregeometry
 
 \section{CAST Step 3: Bottom-up Analysis of the Safety Control Structure Components}
 % Author: Wenxuan Meng
