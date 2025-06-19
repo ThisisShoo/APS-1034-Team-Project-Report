@@ -1,0 +1,40 @@
+\contentsline {section}{Introduction}{6}{section*.2}%
+\contentsline {subsection}{History of the Algo Centre Mall}{6}{section*.3}%
+\contentsline {subsubsection}{Algocen built a defective mall amid a mining rush, sold its problems away at the sight of an economic downturn}{6}{section*.4}%
+\contentsline {subsubsection}{Retirement Living helped change the town, but not the mall maintenance practices}{7}{section*.5}%
+\contentsline {subsubsection}{Duplicitous businessman purchased the mall without a thorough inspection, unwilling to fix but unable to sell}{8}{section*.6}%
+\contentsline {subsubsection}{Regulatory agencies are also to blame}{10}{section*.7}%
+\contentsline {subsubsection}{CAST Methodology}{11}{section*.8}%
+\contentsline {section}{\numberline {1}CAST Step 1: Assemble Basic Information}{12}{section.1}%
+\contentsline {subsection}{\numberline {1.1}System Goals}{13}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Losses}{13}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Hazards}{13}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}System Requirements and Safety Constraints}{14}{subsection.1.4}%
+\contentsline {section}{\numberline {2}CAST Step 2: Hierarchical Safety Control Structure}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Gap Analysis}{18}{subsection.2.1}%
+\contentsline {section}{\numberline {3}CAST Step 3: Bottom-up Analysis of the Safety Control Structure Components}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Federal Government of Canada}{20}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Ontario Provincial Government}{22}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Municipal Government - City of Elliot Lake}{26}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Professional and Regulatory Associations}{28}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Mall Owners}{31}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Building Department - Robert Wood}{33}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Tenants - Occupants of the Algo Centre Mall}{36}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Emergency Services - Elliot Lake Fire, Police, EMS, and Urban Search and Rescue (USAR)}{38}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Algoma Central Railway (ACR)}{41}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Design and Construction Personnel - Architects, Engineers, Contractors (1979)}{44}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Operation and Maintenance Staff - Algo Centre Mall}{46}{subsection.3.11}%
+\contentsline {section}{\numberline {4}CAST Step 4: Top-down Analysis of the Safety Control Structure Components}{49}{section.4}%
+\contentsline {subsection}{\numberline {4.1}FAILURE POINTS}{49}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}SYSTEMIC FACTORS}{51}{subsection.4.2}%
+\contentsline {section}{\numberline {5}CAST Step 5: System Dynamics}{52}{section.5}%
+\contentsline {subsection}{\numberline {5.1}System Dynamics Modeling}{53}{subsection.5.1}%
+\contentsline {section}{\numberline {6}CAST Step 6 - Discussion and Recommendations}{55}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Discussion}{55}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Recommendations}{57}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Professional Engineers of Ontario (PEO)}{57}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Ministry of Municipal Affairs and Housing (MMAH)}{59}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Ontario Building Code Commission (OBCC)}{60}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}Ministry of Labour, Immigration, Training and Skills Development}{60}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.5}Ministry of Public and Business Service Delivery and Procurement (MPBSDP) - formerly Ministry of Government and Consumer Services (MGCS)}{60}{subsubsection.6.2.5}%
+\contentsline {section}{\numberline {7}Conclusion}{61}{section.7}%
